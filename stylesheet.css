@@ -1,18 +1,19 @@
 html, body {
-    background-color: #D92525;
+    background-color: #330f12;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    margin-left: 50;
+    text-align: center;
+    color: #8C1F28;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .projectWindow {
     display:flex;
     justify-content: center;
-    background-color: #8C1F28;
-    outline: 2px dotted purple;
+    background-color: #591C21;
     height: 30rem;
     width:100%;
 }
@@ -20,12 +21,21 @@ h1 {
 .projectOne, .projectTwo, .projectThree {
     margin-right:30px;
     flex-flow: column;
+    text-align: center;
     align-self: center;
-    outline: 3px dotted purple;
+    background-color: #8C1F28;
     height:200px;
     width:200px;
 }
 
 .projectOne:hover,.projectTwo:hover,.projectThree:hover {
     transform: scale(120%);
+    background-color:#751b23;
+}
+
+.about {
+    text-align: center;
+    outline: 2px solid #330f12;
+    background-color: #591C21;
+    height: 30rem;
 }
