@@ -1,0 +1,31 @@
+html, body {
+    background-color: #D92525;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 50;
+}
+
+.projectWindow {
+    display:flex;
+    justify-content: center;
+    background-color: #8C1F28;
+    outline: 2px dotted purple;
+    height: 30rem;
+    width:100%;
+}
+
+.projectOne, .projectTwo, .projectThree {
+    margin-right:30px;
+    flex-flow: column;
+    align-self: center;
+    outline: 3px dotted purple;
+    height:200px;
+    width:200px;
+}
+
+.projectOne:hover,.projectTwo:hover,.projectThree:hover {
+    transform: scale(120%);
+}
